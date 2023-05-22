@@ -1,89 +1,76 @@
-# Booking Backend
+# Booking Frontend
 
-This is the repository of Booking Backend, a Java backend application developed with the Spring framework. The project follows the Model-View-Controller (MVC) design pattern and provides functionalities related to booking reservations.
+This is the repository of Booking Frontend, a TypeScript + React frontend application for the Booking system. It utilizes JQuery for hooks, Axios for backend communication, and Tailwind CSS for styling.
 
 ## Overview
 
-Booking Backend is responsible for managing booking reservations, allowing users to create reservations. It provides a RESTful API to interact with the booking system.
+Booking Frontend provides a user interface for interacting with the Booking system. It is built with TypeScript and React, offering a responsive and interactive experience for users.
 
 ## Features
 
-- User management: registration, authentication, and authorization.
-- Management of services or resources available for booking.
-- Creation, update, and deletion of reservations.
-- Query reservations by users, services, or resources.
+- User authentication and authorization.
+- View available services and resources for booking.
+- Create, update, and delete reservations.
+- Filter and search functionality for finding specific reservations.
+- Responsive design for seamless usage on different devices.
 
 ## Technologies Used
 
-- Java
-- Spring Framework (Spring Boot, Spring MVC)
-- MySQL
+- TypeScript
+- React
+- JQuery
+- Axios
+- Tailwind CSS
 
 ## Project Structure
 
-The project follows an organized structure to facilitate development and maintenance. Some notable directories are:
+The project follows a structured organization to enhance development and maintainability. Some key directories include:
 
-- `src/main/java`: Contains the Java files of the project, including controllers, services, and MVC models.
-- `src/main/resources`: Contains configuration files and static resources.
-- `src/test/java`: Contains unit tests to ensure code quality.
-
-## Running the Project
-
-To run the Booking Backend locally, follow these steps:
-
-1. Clone the repository: `git clone https://github.com/vinivent/booking_backend.git`
-2. Import the project into your preferred Java IDE.
-3. Configure the MySQL database information in the `application.properties` file.
-4. Run the project as a Java application.
-
-## Example HTTP GET Request
-
-Below is an example of an HTTP GET request using the Insomnia tool to interact with the Booking Backend API:
-
-![Example HTTP GET Request](https://github.com/vinivent/booking_frontend/assets/99739118/2a2f72ae-8b1a-430a-88ea-6b1d96664a2e)
-
-# Booking Backend <img src="https://github.com/vinivent/booking_frontend/assets/99739118/38d1659f-172f-4115-9d32-045d11c3ff17" width="20">
+- `src/components`: Contains React components for different sections of the application.
+- `src/pages`: Holds individual page components that make up the application.
+- `src/services`: Includes service files responsible for communicating with the backend API.
+- `src/styles`: Contains CSS and Tailwind CSS utility classes for styling.
 
 
+## Example Screenshot
 
-Este é o repositório do Booking Backend, uma aplicação de backend desenvolvida em Java com o framework Spring. O projeto segue o padrão de projeto MVC (Model-View-Controller) e oferece funcionalidades relacionadas a agendamento de reservas.
+Below is an example screenshot of the Booking Frontend application:
+
+![Example Screenshot](https://github.com/vinivent/booking_frontend/assets/99739118/264b20ee-be63-4b5c-bc90-22c3e7e095a6)
+
+---
+
+# Booking Frontend
+
+Este é o repositório do Booking Frontend, uma aplicação frontend em TypeScript + React para o sistema de agendamento. Ele utiliza JQuery para hooks, Axios para comunicação com o backend e Tailwind CSS para estilização.
 
 ## Visão Geral
 
-O Booking Backend é responsável por gerenciar o agendamento de reservas, permitindo aos usuários criarem reservas. Ele fornece uma API RESTful para interagir com o sistema de agendamento.
+O Booking Frontend fornece uma interface de usuário para interagir com o sistema de agendamento. Ele é construído com TypeScript e React, oferecendo uma experiência responsiva e interativa para os usuários.
 
 ## Funcionalidades
 
-- Gerenciamento de usuários: cadastro, autenticação e autorização.
-- Gerenciamento de serviços ou recursos disponíveis para reserva.
-- Criação, atualização e exclusão de reservas.
-- Consulta de reservas por usuários, serviços ou recursos.
+- Autenticação e autorização de usuários.
+- Visualizar serviços e recursos disponíveis para reserva.
+- Criar, atualizar e excluir reservas.
+- Funcionalidade de filtrar e pesquisar para encontrar reservas específicas.
+- Design responsivo para uma experiência perfeita em diferentes dispositivos.
 
 ## Tecnologias Utilizadas
 
-- Java
-- Spring Framework (Spring Boot, Spring MVC)
-- MySQL
+- TypeScript
+- React
+- JQuery
+- Axios
+- Tailwind CSS
 
 ## Estrutura do Projeto
 
-O projeto segue uma estrutura organizada para facilitar o desenvolvimento e a manutenção. Alguns diretórios notáveis são:
+O projeto segue uma organização estruturada para facilitar o desenvolvimento e a manutenção. Alguns diretórios importantes incluem:
 
-- `src/main/java`: Contém os arquivos Java do projeto, incluindo controladores, serviços e modelos do MVC.
-- `src/main/resources`: Contém arquivos de configuração e recursos estáticos.
-- `src/test/java`: Contém os testes unitários para garantir a qualidade do código.
+- `src/components`: Contém componentes React para diferentes seções da aplicação.
+- `src/pages`: Contém componentes de página individuais que compõem a aplicação.
+- `src/services`: Inclui arquivos de serviço responsáveis por se comunicar com a API do backend.
+- `src/styles`: Contém classes de CSS e Tailwind CSS para estilização.
 
-## Executando o Projeto
 
-Para executar o Booking Backend localmente, siga estas etapas:
-
-1. Clone o repositório: `git clone https://github.com/vinivent/booking_backend.git`
-2. Importe o projeto em sua IDE Java preferida.
-3. Configure as informações do banco de dados MySQL no arquivo `application.properties`.
-4. Execute o projeto como uma aplicação Java.
-
-## Exemplo de Requisição HTTP GET
-
-Abaixo está um exemplo de requisição HTTP GET utilizando a ferramenta Insomnia para interagir com a API do Booking Backend:
-
-![Exemplo de Requisição HTTP GET](https://github.com/vinivent/booking_frontend/assets/99739118/2a2f72ae-8b1a-430a-88ea-6b1d96664a2e)

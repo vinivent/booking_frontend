@@ -34,7 +34,7 @@ const BookingList = () => {
             ))}
           </div>
         ) : (
-          <p className="text-white font-poppins">
+          <p className="text-black font-poppins">
             Não existem reservas no nosso site.
           </p>
         )}

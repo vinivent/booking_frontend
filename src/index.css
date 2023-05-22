@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+    width: 1px; /* largura da barra de rolagem */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* cor do fundo da barra de rolagem */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #7F1D1D; /* cor do preenchimento da barra de rolagem */
+    border-radius: 1px; /* raio de borda da barra de rolagem */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* cor do preenchimento da barra de rolagem quando hover */
+  }
